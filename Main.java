@@ -1,5 +1,11 @@
 public class Main{
   public static void main(String[] args) {
-    System.out.println("Hello"); 
+    //instance
+    InterfaceMan im = new InterfaceMan();
+    Quizman qm = new Quizman();
+
+    //Aloha_method
+    im.aloha();
+    qm.aloha();
   }
 }
