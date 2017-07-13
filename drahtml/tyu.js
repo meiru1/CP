@@ -1,3 +1,3 @@
-function Button1{
-  alert("Test!");
+function Button1(){
+  window.alert("Test!");
 }
